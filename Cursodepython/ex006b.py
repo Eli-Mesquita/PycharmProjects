@@ -1,0 +1,5 @@
+n = int(input('Insert a number:'))
+print('the double of {} is {}.'.format(n, (n*2)))
+print('The triple of {} is {}.'.format(n, (n*3)))
+print('{} squared equals to {}'.format(n, pow(n, 2)))
+print('The square root of {} is {:.2f}.'.format(n, (n**0.5)))
